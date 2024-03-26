@@ -9,7 +9,7 @@ export default function RootLayout({
     return (
         <div className='flex flex-row gap-4 h-screen w-screen overflow-x-hidden'>
             <Sidebar />
-            <div className='flex flex-col w-screen mx-4 lg:w-3/4 lg:ml-0 overflow-y-scroll'>
+            <div className='flex flex-col w-screen mx-4 lg:w-3/4 lg:ml-0 overflow-y-auto'>
                 <Navbar />
                 <main className='flex flex-col mb-4 p-4'>{children}</main>
             </div>
