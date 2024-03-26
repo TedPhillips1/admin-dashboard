@@ -17,7 +17,8 @@ export default function RootLayout({
 }>) {
     return (
         <html lang='en'>
-            <body className={clsx(inter.className, 'max-w-screen')}>
+            <body
+                className={clsx(inter.className, 'bg-slate-950 text-slate-50')}>
                 {children}
             </body>
         </html>
